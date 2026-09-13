@@ -2,10 +2,10 @@
 
 ## User 1
 
-Name: Shilpa Mewada
-Role: Technical Support
-Company/Organization: Aekot
-How reached: WhatsApp
+# Name: Shilpa Mewada
+# Role: Technical Support
+# Company/Organization: Aekot
+# How reached: WhatsApp
 
 Why this person is relevant:
 This user regularly handles client support queries and is involved in preparing responses based on the issue reported by the client. 
