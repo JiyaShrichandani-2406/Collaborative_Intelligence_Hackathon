@@ -2,10 +2,10 @@
 
 ## User 1
 
-# Name: Shilpa Mewada
-# Role: Technical Support
-# Company/Organization: Aekot
-# How reached: WhatsApp
+### Name: Shilpa Mewada
+### Role: Technical Support
+### Company/Organization: Aekot
+### How reached: WhatsApp
 
 Why this person is relevant:
 This user regularly handles client support queries and is involved in preparing responses based on the issue reported by the client. 
@@ -17,10 +17,10 @@ and judgement involved in preparing a client-facing response.
 
 ## User 2
 
-Name: Neha Mewada
-Role: Technical Support
-Company/Organization: Salesforce
-How reached: LinkedIn
+### Name: Neha Mewada
+### Role: Technical Support
+### Company/Organization: Salesforce
+### How reached: LinkedIn
 
 Why this person is relevant:
 This user provides a second perspective on the client-response process and helps us understand how response preparation may vary
