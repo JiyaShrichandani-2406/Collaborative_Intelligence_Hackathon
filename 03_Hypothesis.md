@@ -14,7 +14,7 @@ The human + AI workflow should:
 
 ## Kill Condition
 
-The hypothesis will be considered unsupported if the human + AI workflow does not reduce the response-preparation time below **5 minutes**, or if the AI-generated draft contains important inaccuracies, missing information, or inappropriate statements that require substantial correction by the employee.
+The hypothesis will be considered unsupported if the human + AI workflow does not reduce the response-preparation time below **6-10 minutes**, or if the AI-generated draft contains important inaccuracies, missing information, or inappropriate statements that require substantial correction by the employee.
 
 ## What We Will Compare
 
