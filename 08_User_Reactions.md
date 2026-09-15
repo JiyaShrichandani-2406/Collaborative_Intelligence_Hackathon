@@ -1,45 +1,64 @@
 # STEP 8: USER REACTIONS
 
-## User 1 – Shilpa
+## User 1 — Shilpa
 
-### Reaction to the Task
+### Exact User Feedback
 
-After completing the technical support response manually, Shilpa found that the task required 
-time to understand the query and prepare an appropriate response.
+**Question 1:** What part of the response-drafting process takes the most time or feels repetitive?
 
-### Feedback
+**Shilpa's answer:**
+“The most time-consuming part is writing the response clearly and professionally. Writing similar responses repeatedly can also feel repetitive.”
 
-The response-drafting process could be made faster with assistance for the initial draft, 
-but the final response should still be checked by a human.
+**Question 2:** If AI created the first draft for you, what would you want it to do, and what would you still want to check yourself?
 
-### Key Takeaway
+**Shilpa's answer:**
+“I would want AI to create a clear and professional first draft. I would still check the technical details and make sure everything is correct before sending it.”
 
-AI could help reduce the writing effort while the user continues to review and approve the final response.
+### Design Change From User Feedback
 
----
+Shilpa's feedback suggests that the system should:
 
-## User 2 – Neha
+* Generate a clear and professional first draft.
+* Reduce repetitive writing effort.
+* Keep human verification of technical details and correctness before the response is sent.
 
-### Reaction to the Task
+### Evidence Reference
 
-After completing the technical support response manually, Neha found that preparing the response
-required careful understanding of the issue and review of the final answer.
+**Chat evidence:** `08_User_Reactions/user1_reaction_chat.md`
 
-### Feedback
-
-An AI-generated first draft could make the process faster, but human review would still be important 
-to ensure the response is correct and relevant.
-
-### Key Takeaway
-
-The repetitive drafting part of the task appears suitable for AI assistance, while human 
-judgement should remain part of the process.
+The attached chat screenshot contains the questions asked to Shilpa and her responses.
 
 ---
 
-## Overall User Reaction
+## User 2 — Neha
 
-Both users indicated that the response-drafting task involves repeated manual effort and that 
-AI assistance could potentially reduce drafting time.
+### Exact User Feedback
 
-However, the users still considered human review important before sending the final response.
+**Question 1:** What part of the response-drafting process takes the most time or feels repetitive?
+
+**Neha's answer:**
+“I always need to provide the prompt that makes it a simple professional draft, and do not use much technical terms, try to draft it in functional prospect. So this is something repeatedly needs to give to AI.”
+
+**Question 2:** If AI created the first draft for you, what would you want it to do, and what would you still want to check yourself?
+
+**Neha's answer:**
+“If AI will draft the first response, then I want it to make sure not to use too much technical information. It should draft the response in functional way as the clients will not be able to understand too deep technical terms. As well as AI should use simple professional language. These things I want AI to do and I will verify if all this is fulfilled or not.”
+
+### Design Change From User Feedback
+
+Neha's feedback suggests that the system should:
+
+* Generate a simple, professional first draft.
+* Avoid unnecessary or overly technical terminology.
+* Explain the issue from a functional/client perspective.
+* Avoid requiring the user to repeatedly provide the same writing instructions.
+* Keep the human responsible for verifying whether the generated response follows these requirements.
+
+### Evidence Reference
+
+**Chat evidence:** `08_User_Reactions/user2_reaction_chat.md`
+
+The attached chat screenshot contains the questions asked to Neha and her responses.
+
+---
+
