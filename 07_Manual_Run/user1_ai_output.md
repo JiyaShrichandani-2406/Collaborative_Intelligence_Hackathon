@@ -2,8 +2,6 @@
 
 ## Run Information
 
-**User:** Shilpa
-
 **Method:** Plain LLM (no system prompt, no persona instruction)
 
 **AI Used:** Yes
