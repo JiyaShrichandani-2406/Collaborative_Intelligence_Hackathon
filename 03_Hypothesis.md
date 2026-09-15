@@ -8,7 +8,7 @@ A collaborative workflow in which a plain LLM prepares an initial client respons
 
 The human + AI workflow should:
 
-* Reduce response-preparation time from the current baseline of **5 minutes per support query**.
+* Reduce response-preparation time from the current baseline of **6-10 minutes per support query**.
 * Maintain a response that is **accurate, relevant to the client's issue, and safe to communicate**.
 * Keep the final decision and approval with the technical support employee.
 
