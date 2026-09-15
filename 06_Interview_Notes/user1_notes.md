@@ -1,10 +1,34 @@
-# Interview Notes – User 1
+# USER 1 — INTERVIEW NOTES
 
-## User Name
+**Name:** Shilpa
 
-Shilpa
+**Task Discussed:** Drafting a response to a technical support query
 
-## Technical Support Ticket Given
+---
+
+## What We Discussed
+
+The user was asked about how she normally handles a technical support query.
+
+### Current Way of Working
+
+* Reads the support query carefully.
+* Understands the customer's issue.
+* Decides what information should be included.
+* Drafts the response.
+* Reviews the response before finalizing it.
+
+### Difficulty / Repetitive Part
+
+The user needs to repeat the same reading, understanding, drafting, and reviewing process for different support queries.
+
+### What Could Help
+
+An initial AI-generated draft could reduce the amount of manual writing, while the user could still review and correct the final response.
+
+## Interview Evidence
+
+**Ticket discussed:**
 
 **Subject: Application login failing after password reset**
 
@@ -34,7 +58,7 @@ Please let me know what I should do next. I need access to the application to co
 Regards,
 Client
 
-## Response Given by the User
+**Response discussed:**
 
 Hi 
 I investigated the authentication issue and checked the user’s account and authentication details. 
@@ -44,11 +68,11 @@ The issue has now been resolved. Please try logging in again using your new pass
 You should now be able to access the application successfully.
 Thank you
 
-## Time Taken
+## Observation
 
-6 minutes
+The user spends time not only writing the response but also understanding the issue and checking the final response.
 
-## Key Observation
+**Observed time during manual task:** 6 minutes.
 
-Shilpa handled the ticket manually by understanding the issue and preparing the response before finalizing it. 
-The response required human judgement and review.
+
+
