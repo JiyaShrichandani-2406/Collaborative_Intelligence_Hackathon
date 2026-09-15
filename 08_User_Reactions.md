@@ -24,7 +24,7 @@ Shilpa's feedback suggests that the system should:
 
 ### Evidence Reference
 
-**Chat evidence:** `08_User_Reactions/user1_reaction_chat.md`
+**Chat evidence:** `User_reactions_evidence/user1_evidence.md`
 
 The attached chat screenshot contains the questions asked to Shilpa and her responses.
 
@@ -56,7 +56,7 @@ Neha's feedback suggests that the system should:
 
 ### Evidence Reference
 
-**Chat evidence:** `08_User_Reactions/user2_reaction_chat.md`
+**Chat evidence:** `User_reactions_evidence/user2_evidence.md`
 
 The attached chat screenshot contains the questions asked to Neha and her responses.
 
