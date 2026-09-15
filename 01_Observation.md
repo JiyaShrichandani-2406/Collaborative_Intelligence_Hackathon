@@ -8,4 +8,5 @@ or the response requires technical judgement or approval from another person. Be
 the support professional needs to ensure that the response is correct, relevant to the issue, and appropriate to send.
 
 WORKFLOW OF OBSERVATION:
+
 Client query → Understand → Check information → Prepare response → Verify → Communicate
