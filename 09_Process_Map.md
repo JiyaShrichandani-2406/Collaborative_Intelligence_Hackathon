@@ -1,62 +1,54 @@
 # STEP 9: PROCESS MAP
 
-## Current Human-Only Process
+## Legend
 
-The current process followed for drafting a technical support response is:
-
-**Technical Support Query**
-
-             ↓
-             
-**Read and Understand the Query**
-
-             ↓
-             
-**Identify the Customer's Issue**
-
-             ↓
-
-**Determine the Information Needed**
-
-             ↓
-             
-**Draft the Response**
-
-             ↓
-             
- **Review and Correct the Response**
-
-             ↓
-             
- **Final Response**
+* **D — Deterministic:** A fixed or routine step that follows a defined process.
+* **P — Probabilistic:** A step where the result depends on interpretation, generation, or variable input.
+* **H — Human-in-the-room:** A step where human judgment, verification, correction, or approval is required.
 
 ---
 
-## Detailed Human Workflow
+## Current Human-Only Process
 
-### 1. Receive the Support Query
+**Technical Support Query**
 
-The user receives a technical support query from the customer.
+↓
+**Receive Query — D**
 
-### 2. Read and Understand
+↓
+**Read and Understand the Query — H**
 
-The user reads the complete query and understands the problem being reported.
+↓
+**Identify the Customer's Issue — H**
 
-### 3. Identify the Required Information
+↓
+**Determine the Information Needed — H**
 
-The user determines what information, explanation, or solution is needed in the response.
+↓
+**Draft the Response — H**
 
-### 4. Draft the Response
+↓
+**Review and Correct the Response — H**
 
-The user manually writes a suitable response for the customer.
+↓
+**Final Response — H**
 
-### 5. Review the Response
+### Where Human Judgment Enters
 
-The user checks the response for correctness, clarity, completeness, and relevance.
+Human judgment is required when the support professional:
 
-### 6. Finalize
+* Understands what the customer is actually asking.
+* Identifies the reported issue.
+* Decides what information should be included.
+* Determines how the issue should be explained to the customer.
+* Checks whether the response is correct and appropriate.
+* Makes the final decision before the response is sent.
 
-After making any required changes, the user prepares the final response.
+### Current Bottleneck
+
+The most time-consuming part observed in the current process is **writing the response clearly and professionally**, along with the repeated effort of preparing similar responses.
+
+This is consistent with Shilpa's feedback that writing the response clearly and professionally is the most time-consuming part and that writing similar responses repeatedly can feel repetitive.
 
 ---
 
@@ -67,34 +59,72 @@ After making any required changes, the user prepares the final response.
 | Shilpa |            6 minutes |
 | Neha   |           10 minutes |
 
+The two users completed their response-drafting tasks without AI assistance.
+
 ---
 
 ## Proposed Human + AI Process
 
-The proposed collaborative workflow is:
-
 **Technical Support Query**
 
-           ↓
+↓
+**Receive Query — D**
 
-**AI Generates Initial Draft**
-           
-           ↓
-           
-**Human Reviews AI Draft**
-           
-           ↓
-           
-**Human Corrects / Adds Missing Information**
-           
-           ↓
-           
-**Final Response**
+↓
+**AI Generates Initial Draft — P**
+
+↓
+**Human Reviews AI Draft — H**
+
+↓
+**Human Checks Technical Details and Correctness — H**
+
+↓
+**Human Corrects / Adds Missing Information — H**
+
+↓
+**Human Approves Final Response — H**
+
+↓
+**Final Response — H**
+
+### Human-in-the-Room Requirement
+
+The human must remain involved after the AI generates the draft.
+
+The human is responsible for:
+
+* Checking whether the draft matches the customer's issue.
+* Verifying technical details.
+* Checking that the response is correct and relevant.
+* Ensuring the language is clear and professional.
+* Removing unnecessary technical terminology where appropriate.
+* Adding missing information.
+* Giving final approval before the response is sent.
+
+### AI Responsibility
+
+The AI is responsible for generating the **initial response draft**.
+
+Based on the users' feedback, the draft should aim to:
+
+* Use clear and professional language.
+* Avoid unnecessary technical terms.
+* Explain the issue from a functional/client perspective.
+* Reduce repetitive manual writing.
+
+The AI does not make the final decision about whether the response should be sent.
 
 ---
 
-## Expected Benefit
+## Process Change
 
-AI will assist with the repetitive initial drafting stage, while the human will remain responsible for understanding the context, checking the response, making corrections, and approving the final answer.
+### Before
 
-The purpose is to reduce response-drafting time without removing human judgement from the process.
+**Query → Human Understands → Human Identifies Issue → Human Decides Information → Human Drafts → Human Reviews → Final Response**
+
+### After
+
+**Query → AI Draft → Human Reviews → Human Verifies & Corrects → Human Approves → Final Response**
+
+The proposed change moves the repetitive **initial drafting** work from the human to the AI while keeping human judgment at the verification and approval stages.
