@@ -50,6 +50,6 @@ and measure whether the collaborative approach performs better than both individ
 
 The support tickets were shared with the users through WhatsApp and Linkedin, and the conversations are retained separately as contact evidence.
 
-* User 1 contact evidence: `05_Contact_Artefacts/user1_whatsapp.png`
-* User 2 contact evidence: `05_Contact_Artefacts/user2_linkedin.png`
+* User 1 contact evidence: `05_Contact_Artefacts/user1_chat.md`
+* User 2 contact evidence: `05_Contact_Artefacts/user2_chat.md`
 
